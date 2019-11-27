@@ -20,14 +20,14 @@ void testStack(ListStack<int> stack)
 		std::cout << stack.pop() << " ";
 	}
 	std::cout << "\nStack size:" << stack.size();
-	 std::cout << "\nStack empty?";
+	std::cout << "\nStack empty?";
 	stack.isEmpty() ? std::cout << "True\n" : std::cout << "False\n";
 }
 void testQueue(ListQueue<int> queue)
 {
 	std::cout << "Initial queue: ";
 	queue.printRange(queue.size());
-	std::cout << "\n";
+	 std::cout << "\n";
 	std::cout << "Queue size: " << queue.size() << "\n";
 	std::cout << "First item: " << queue.first() << "\n";
 	std::cout << "Queue empty?";
