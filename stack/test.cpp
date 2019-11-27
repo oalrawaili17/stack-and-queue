@@ -20,7 +20,7 @@ void testStack(ListStack<int> stack)
 		std::cout << stack.pop() << " ";
 	}
 	std::cout << "\nStack size:" << stack.size();
-	std::cout << "\nStack empty?";
+	 std::cout << "\nStack empty?";
 	stack.isEmpty() ? std::cout << "True\n" : std::cout << "False\n";
 }
 void testQueue(ListQueue<int> queue)
