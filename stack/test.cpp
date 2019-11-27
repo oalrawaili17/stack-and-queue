@@ -50,7 +50,7 @@ void testQueue(ListQueue<int> queue)
 	}
 	catch (QueueUnderflow)
 	{
-		std::cout << "Error: Underflow detected\n";
+		 std::cout << "Error: Underflow detected\n";
 	}
 }
 int main()
